@@ -1,6 +1,9 @@
+![](example/UI_example.png)
+
 # LocalImageSearch
 
 本项目实现了一个本地图片检索（Content-Based Image Retrieval, CBIR）的小型框架。它通过多种图像特征（PCA、HOG、ResNet-50）对图片进行特征提取，并支持基于欧式距离或余弦相似度的检索。项目包含一个简单的图形界面（基于 tkinter + ttkbootstrap）用于选择查询图像并展示检索结果。
+示例图中的图片来源：[Hippopx](https://www.hippopx.com/)
 
 ## 关键特性
 
@@ -83,6 +86,7 @@ python -m pip install -r requirements.txt
 ## English
 
 This repository implements a small local image retrieval (Content-Based Image Retrieval, CBIR) framework. It extracts image features using multiple methods (PCA, HOG, ResNet-50) and supports retrieval based on Euclidean distance or cosine similarity. A simple GUI (tkinter + ttkbootstrap) is included for selecting a query image and displaying search results.
+Example images sourced from: [Hippopx](https://www.hippopx.com/)
 
 Key features
 
